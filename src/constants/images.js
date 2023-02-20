@@ -34,7 +34,7 @@ import circle from "../images/circle.svg";
 import email from "../images/email.png";
 import mobile from "../images/mobile.png";
 
-export default {
+const images = {
   hero,
   circle,
   api,
@@ -71,3 +71,5 @@ export default {
   email,
   mobile,
 };
+
+export default images;

@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { images } from "../constants";
+import images from "../constants/images";
 import { useMediaQuery } from "../ReuseComponents/hooks/useMediaQuery";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { heroImgInfo } from "../Info/Info";

@@ -12,7 +12,7 @@ import {
   FaHouseUser,
   FaUser,
 } from "react-icons/fa";
-import { images } from "../constants";
+import images from "../constants/images";
 
 // Nav links
 export const pageLink = [
