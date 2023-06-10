@@ -74,7 +74,7 @@ export const socialIconInfo = [
     id: 5,
     name: "Resume",
     icon: <BsFillPersonLinesFill className="text-sm xs:text-base" />,
-    href: "/Akande Idris Cv.docx",
+    href: "/Idris resume.docx",
     style: "rounded-br-md",
     download: true,
   },
