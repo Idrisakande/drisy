@@ -38,7 +38,7 @@ const Home = ({ setSelectedPage }) => {
             <span className="text-[2rem]">😎</span>
           )}
           <div className="text-2xl text-black font-semibold">
-            <p className="">Hello,</p>
+            <p className="">Hi,</p>
             <h1 className=" sm:text-3xl text-blue">My Client</h1>
           </div>
         </div>
