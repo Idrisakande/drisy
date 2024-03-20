@@ -48,9 +48,6 @@ img {
 .projects-main {
   @apply flex flex-col gap-14 justify-center items-center text-center sm:px-16 md:px-[4.45rem];
 }
-.project-black-card {
-  @apply flex gap-2 justify-center items-center absolute top-0 left-0 bottom-0 right-0 rounded-lg opacity-0 hover:bg-black hover:bg-opacity-40;
-}
 
 /* Discount stlye */
 .discount-section {
