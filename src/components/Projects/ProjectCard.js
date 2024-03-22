@@ -37,7 +37,7 @@ export const ProjectCard = ({ project }) => {
             ease: "easeInOut",
             staggerChildren: 0.5,
           }}
-          className="project-black-card"
+          className={`flex gap-2 justify-center items-center absolute top-0 left-0 bottom-0 right-0 rounded-lg opacity-0 hover:bg-black hover:bg-opacity-40`}
         >
           {url && (
             <a href={url} target="_blank" rel="noreferrer">
