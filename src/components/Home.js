@@ -92,7 +92,7 @@ const Home = ({ setSelectedPage }) => {
               </span>
             </h1>
             <p className="text-gray text-xs font-normal mt-3 xs:text-sm md:max-w-[90%]">
-              I a React Frontend Developer with 3 years of experience developing
+              I'm a React(Next.js) Frontend Developer with 3 years plus of experience developing
               quality and productive Web Applications. I also build a Fullstack
               Web Applications with React and firebase development software to
               execute beautifull user interfaces.
