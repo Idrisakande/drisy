@@ -1,7 +1,10 @@
 import React from "react";
+import { format } from "date-fns";
+
 
 export const AppWrapper = (Component, idName, classNames) =>
   function HOC() {
+    const currentYear = format(new Date(), "yyyy");
     return (
       <div
         id={idName}
@@ -11,7 +14,7 @@ export const AppWrapper = (Component, idName, classNames) =>
 
         <div className="flex flex-col justify-end items-end px-4 ss:px-12">
           <p className="font-bold text-gray text-xs">
-            @2023 <span className="text-blue">Drisy</span>{" "}
+            @{currentYear} <span className="text-blue">Drisy</span>{" "}
           </p>
           <p className="font-bold text-gray text-xs">All rights reserved</p>
         </div>

@@ -177,6 +177,9 @@ export const aboutsInfo = [
 // projects nav info
 export const projectsNavInfo = [
   {
+    name: "Full-Stack App",
+  },
+  {
     name: "Web App",
   },
   {
@@ -196,6 +199,18 @@ export const projectsNavInfo = [
 export const projectsCardInfo = [
   {
     id: 1,
+    name: "Full-Stack App",
+    title: "YouTube-Clone App",
+    discription: "Full-Stack YouTube-like platform where Users upload and Interact with Video Content",
+    tag: "Next.js App",
+    img1: images.ytube_d,
+    img2: images.ytube_m,
+    img2Style: `absolute -bottom-8 right-0 w-16 object-contain`,
+    url: "https://ytube-pink.vercel.app",
+    gitHub: "https://github.com/Idrisakande/ytube",
+  },
+  {
+    id: 2,
     name: "React JS App",
     title: "Tesla-Clone App",
     discription: "An Amazing React Redux Frontend Website Application",
@@ -207,7 +222,7 @@ export const projectsCardInfo = [
     gitHub: "https://github.com/Idrisakande/tesla-clone",
   },
   {
-    id: 2,
+    id: 3,
     name: "Web App",
     title: "Dristore App",
     discription: "An Interactive Ecommerce Frontend Website Application",
@@ -219,7 +234,7 @@ export const projectsCardInfo = [
     gitHub: "https://github.com/Idrisakande/dristore-ecommerce-web",
   },
   {
-    id: 3,
+    id: 4,
     name: "React JS App",
     title: "Vhjobs App",
     discription: "A Beautifull React JS Landing Page Application",
@@ -229,7 +244,7 @@ export const projectsCardInfo = [
     gitHub: "https://github.com/Idrisakande/vhjobs-landing-page",
   },
   {
-    id: 4,
+    id: 5,
     name: "Web App",
     title: "Vegetarian Food App",
     discription: "An Amazing Animating Ecommerce Website Application",
@@ -241,7 +256,7 @@ export const projectsCardInfo = [
     gitHub: "https://github.com/Idrisakande/vege-food-app",
   },
   {
-    id: 5,
+    id: 6,
     name: "Game App",
     title: "RPS Game App",
     discription: "A Frontend DOM manipulating Game Application",
@@ -253,7 +268,7 @@ export const projectsCardInfo = [
     gitHub: "https://github.com/Idrisakande/RPS-Game-App",
   },
   {
-    id: 6,
+    id: 7,
     name: "Web App",
     title: "Superhero Api App",
     discription: "A Frontend DOM Manipulating Super Hero Api Application",
@@ -264,7 +279,7 @@ export const projectsCardInfo = [
     gitHub: "https://github.com/Idrisakande/super-hero-api",
   },
   {
-    id: 7,
+    id: 8,
     name: "UI/UX",
     title: "Vhjobs design",
     discription: "An Amazing Clean Clear UI/UX Design",

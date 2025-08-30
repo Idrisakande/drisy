@@ -33,8 +33,12 @@ import fg from "../images/fg.png";
 import circle from "../images/circle.svg";
 import email from "../images/email.png";
 import mobile from "../images/mobile.png";
+import ytube_d from "../images/ytubed.png";
+import ytube_m from "../images/ytubem.png";
 
 const images = {
+  ytube_d,
+  ytube_m,
   hero,
   circle,
   api,
